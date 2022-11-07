@@ -13,6 +13,7 @@ body{
     background-position: center center ;
 }
 .hero-sec{
+
 	margin-left: 180px;
 }
 .hero-sec img{
@@ -80,14 +81,14 @@ body{
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
-    background: rgba( 255, 255, 255, 0.25 ) !important;
+    background: rgba(255, 255, 255, 0.589) !important;
 backdrop-filter: blur( 10px ) !important;
 -webkit-backdrop-filter: blur( 4px ) !important;
 border-radius: 10px !important;
 border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
   
 	padding: 12px 16px;
-	width: 178px;
+	width: 300px;
 	height: auto;
 	position: absolute;
 	left: 50%;
@@ -95,8 +96,8 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 	border-radius: 3px;
 /* 	border: 1px solid #E0E0E0; */
 	box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
-	color: #fff;
-	font-size: 12px;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
 	line-height: 18px;
 	z-index: 99;
 }
@@ -214,23 +215,23 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
-    background: rgba( 255, 255, 255, 0.25 ) !important;
+    background: rgba(255, 255, 255, 0.589) !important;
 backdrop-filter: blur( 10px ) !important;
 -webkit-backdrop-filter: blur( 4px ) !important;
 border-radius: 10px !important;
 border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
   
 	padding: 12px 16px;
-	width: 178px;
+	width: 300px;
 	height: auto;
 	position: absolute;
-	left: 60%;
+	left: 50%;
 	transform: translate(-50%, 5%);
 	border-radius: 3px;
 /* 	border: 1px solid #E0E0E0; */
 	box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
-	color: #fff;
-	font-size: 12px;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
 	line-height: 18px;
 	z-index: 99;
 }
@@ -311,23 +312,23 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
-    background: rgba( 255, 255, 255, 0.25 ) !important;
-    backdrop-filter: blur( 10px ) !important;
-    -webkit-backdrop-filter: blur( 4px ) !important;
-    border-radius: 10px !important;
-    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    background: rgba(255, 255, 255, 0.589) !important;
+backdrop-filter: blur( 10px ) !important;
+-webkit-backdrop-filter: blur( 4px ) !important;
+border-radius: 10px !important;
+border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
   
 	padding: 12px 16px;
-	width: 178px;
+	width: 300px;
 	height: auto;
 	position: absolute;
-	left: 60%;
+	left: 50%;
 	transform: translate(-50%, 5%);
 	border-radius: 3px;
 /* 	border: 1px solid #E0E0E0; */
 	box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
-	color: #fff;
-	font-size: 12px;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
 	line-height: 18px;
 	z-index: 99;
 }
@@ -398,8 +399,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 .help-tip3:hover p{
     display:block;
     transform-origin: 100% 0%;
-    -webkit-animation: fadeIn 0.3s ease;
-    animation: fadeIn 0.3s ease;
+    -webkit-animation: zoomIn 2s ease;
+    animation: fadeIn 2s ease;
+	/* transform: scale(1.5); */
 }
 
 /* The tooltip */
@@ -409,25 +411,26 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
-    background: rgba( 255, 255, 255, 0.25 ) !important;
+    background: rgba(255, 255, 255, 0.589) !important;
 backdrop-filter: blur( 10px ) !important;
 -webkit-backdrop-filter: blur( 4px ) !important;
 border-radius: 10px !important;
 border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
   
 	padding: 12px 16px;
-	width: 178px;
+	width: 300px;
 	height: auto;
 	position: absolute;
-	left: 60%;
+	left: 50%;
 	transform: translate(-50%, 5%);
 	border-radius: 3px;
 /* 	border: 1px solid #E0E0E0; */
 	box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
-	color: #fff;
-	font-size: 12px;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
 	line-height: 18px;
 	z-index: 99;
+	
 }
 
 .help-tip3 p a {
@@ -508,21 +511,22 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
-    background: rgba( 255, 255, 255, 0.25 ) !important;
+    background: rgba(255, 255, 255, 0.589) !important;
 backdrop-filter: blur( 10px ) !important;
 -webkit-backdrop-filter: blur( 4px ) !important;
 border-radius: 10px !important;
 border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+  
 	padding: 12px 16px;
-	width: 178px;
+	width: 300px;
 	height: auto;
 	position: absolute;
-	left: 60%;
+	left: 50%;
 	transform: translate(-50%, 5%);
 	border-radius: 3px;
 /* 	border: 1px solid #E0E0E0; */
 	box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-size: 12px;
 	line-height: 18px;
 	z-index: 99;
@@ -607,23 +611,23 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
-    background: rgba( 255, 255, 255, 0.25 ) !important;
-    backdrop-filter: blur( 10px ) !important;
-    -webkit-backdrop-filter: blur( 4px ) !important;
-    border-radius: 10px !important;
-    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    background: rgba(255, 255, 255, 0.589) !important;
+backdrop-filter: blur( 10px ) !important;
+-webkit-backdrop-filter: blur( 4px ) !important;
+border-radius: 10px !important;
+border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
   
 	padding: 12px 16px;
-	width: 178px;
+	width: 300px;
 	height: auto;
 	position: absolute;
-	left: 60%;
+	left: 50%;
 	transform: translate(-50%, 5%);
 	border-radius: 3px;
 /* 	border: 1px solid #E0E0E0; */
 	box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
-	color: #fff;
-	font-size: 12px;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
 	line-height: 18px;
 	z-index: 99;
 }
@@ -705,22 +709,23 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 	text-align: center;
-    background: rgba( 255, 255, 255, 0.25 ) !important;
-    backdrop-filter: blur( 10px ) !important;
-    -webkit-backdrop-filter: blur( 4px ) !important;
-    border-radius: 10px !important;
-    border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+    background: rgba(255, 255, 255, 0.589) !important;
+backdrop-filter: blur( 10px ) !important;
+-webkit-backdrop-filter: blur( 4px ) !important;
+border-radius: 10px !important;
+border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
+  
 	padding: 12px 16px;
-	width: 178px;
+	width: 300px;
 	height: auto;
 	position: absolute;
-	left: 60%;
+	left: 50%;
 	transform: translate(-50%, 5%);
 	border-radius: 3px;
 /* 	border: 1px solid #E0E0E0; */
 	box-shadow: 0 0px 20px 0 rgba(0,0,0,0.1);
-	color: #fff;
-	font-size: 12px;
+	color: rgb(0, 0, 0);
+	font-size: 15px;
 	line-height: 18px;
 	z-index: 99;
 }
@@ -766,6 +771,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
         background-position: center center ;
     }
 	.hero-sec{
+		width: 94% !important;
 		margin-left: 20px;
 	}
     .hero-sec img{
@@ -827,6 +833,48 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
     .help-tip6 img{
         width: 150px !important;
     }
+	.help-tip p{
+		width: 195px;
+		margin-left: 20px;
+		background: #fff !important;
+		color: black !important;
+	}
+	.help-tip1 p{
+		width: 195px;
+		margin-left: 20px;
+		background: #fff !important;
+		color: black !important;
+	}
+	.help-tip2 p{
+		width: 195px;
+		margin-left: 20px;
+		background: #fff !important;
+		color: black !important;
+	}
+	.help-tip3 p{
+		width: 195px;
+		margin-left: 20px;
+		background: #fff !important;
+		color: black !important;
+	}
+	.help-tip4 p{
+		width: 195px;
+		margin-left: 20px;
+		background: #fff !important;
+		color: black !important;
+	}
+	.help-tip5 p{
+		width: 195px;
+		margin-left: 20px;
+		background: #fff !important;
+		color: black !important;
+	}
+	.help-tip6 p{
+		width: 195px;
+		margin-left: 20px;
+		background: #fff !important;
+		color: black !important;
+	}
   }
 
   @media (min-width: 768px) and (max-width: 1024px) {
@@ -840,6 +888,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 ) !important;
 .hero-sec h2 {
 	font-size: 27px;
 }
+
   }
 
 
